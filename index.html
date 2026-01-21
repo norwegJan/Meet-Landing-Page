@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Meet landing page</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav>
+        <a href="#"
+          ><img src="./assets/logo.svg" class="company-logo" alt="company logo"
+        /></a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="hero-header">
+        <picture>
+          <img
+            src="./assets/tablet/image-hero.png"
+            alt="Circled avatars of random people"
+            width="500"
+          />
+        </picture>
+
+        <div class="hero-text-buttons">
+          <div class="hero-text">
+            <h1 class="hero-heading">Group Chat for Everyone</h1>
+
+            <p class="hero-para">
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+          </div>
+
+          <div class="buttons">
+            <!-- <div class="dl-button">Download v1.3</div>
+            <div class="what-button">What is it?</div> -->
+            <button
+              type="button"
+              class="dl-button"
+              onclick="alert('App should be downloading soon...')"
+            >
+              Download <span class="version">v1.3</span>
+            </button>
+            <button
+              type="button"
+              class="what-button"
+              onclick="alert('A messaging app for a new generation!')"
+            >
+              What is it?
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <section class="main-content">
+        <div class="section-divider">
+          <div class="vertical-line"></div>
+          <div class="number-divider-circle">
+            <p class="number">01</p>
+          </div>
+        </div>
+
+        <div class="image-grid">
+          <img
+            src="./assets/desktop/image-woman-in-videocall.jpg"
+            class="grid-image"
+            alt="woman in videocall"
+            width="175"
+          />
+          <img
+            src="./assets/desktop/image-women-videochatting.jpg"
+            class="grid-image"
+            alt="women videochatting"
+            width="175"
+          />
+          <img
+            src="./assets/desktop/image-men-in-meeting.jpg"
+            class="grid-image"
+            alt="men in videomeeting"
+            width="175"
+          />
+          <img
+            src="./assets/desktop/image-man-texting.jpg"
+            class="grid-image"
+            alt="man texting"
+            width="175"
+          />
+        </div>
+
+        <div class="main-text-container">
+          <p class="topper-text">Built for modern use</p>
+
+          <h2 class="main-heading">Smarter meetings, all in one place</h2>
+
+          <p class="main-para">
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </p>
+        </div>
+      </section>
+
+      <section class="footer-cta">
+        <div class="section-divider">
+          <div class="vertical-line"></div>
+          <div class="number-divider-circle">
+            <p class="number">02</p>
+          </div>
+        </div>
+
+        <div class="footer-container">
+        <div class="footer-text">
+          <h2 class="footer-heading">Experience more together</h2>
+
+          <p class="footer-para">
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+        </div>
+
+        <button
+          type="button"
+          class="dl-button-footer"
+          onclick="alert('App should be downloading soon...')"
+        >
+          Download <span class="version-footer">v1.3</span>
+        </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
