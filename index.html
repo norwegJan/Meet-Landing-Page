@@ -35,6 +35,7 @@
     <main>
       <header class="hero-header">
         <picture>
+          <source media="(max-width: 1023px)" srcset="./assets/tablet/image-hero.png">
           <img
             src="./assets/tablet/image-hero.png"
             class="hero-image"
@@ -43,6 +44,11 @@
         </picture>
 
         <div class="hero-text-buttons">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="./assets/desktop/image-hero-left.png">
+            <img src="./assets/favicon-32x32.png" class="hero-image-desktop-left" alt="Circled avatars of random people">
+          </picture>
+          <div class="text-buttons">
           <div class="hero-text">
             <h1 class="hero-heading">Group Chat for Everyone</h1>
 
@@ -65,11 +71,16 @@
             <button
               type="button"
               class="what-button"
-              onclick="alert('A messaging app for a new generation!')"
+              onclick="alert('A messaging app for the new generation!')"
             >
               What is it?
             </button>
           </div>
+          </div>
+          <picture>
+            <source media="(min-width: 1024px)" srcset="./assets/desktop/image-hero-right.png">
+            <img src="./assets/favicon-32x32.png" class="hero-image-desktop-right" alt="Circled avatars of random people">
+          </picture>
         </div>
       </header>
 
@@ -118,7 +129,7 @@
       </section>
 
       <section class="footer-cta">
-       <div class="section-divider2">
+        <div class="section-divider2">
           <div class="vertical-line"></div>
           <div class="number-divider-circle">
             <p class="number">02</p>
@@ -126,23 +137,24 @@
         </div>
         <div class="footer-container">
           <div class="color-layer">
-             
-            <div class="footer-text">
-              <h2 class="footer-heading">Experience more together</h2>
+            <div class="footer-inner">
+              <div class="footer-text">
+                <h2 class="footer-heading">Experience more together</h2>
 
-              <p class="footer-para">
-                Stay connected with reliable HD meetings and unlimited
-                one-on-one and group video sessions.
-              </p>
+                <p class="footer-para">
+                  Stay connected with reliable HD meetings and unlimited
+                  one-on-one and group video sessions.
+                </p>
+              </div>
+
+              <button
+                type="button"
+                class="dl-button-footer"
+                onclick="alert('App should be downloading soon...')"
+              >
+                Download <span class="version-footer">v1.3</span>
+              </button>
             </div>
-
-            <button
-              type="button"
-              class="dl-button-footer"
-              onclick="alert('App should be downloading soon...')"
-            >
-              Download <span class="version-footer">v1.3</span>
-            </button>
           </div>
         </div>
       </section>
